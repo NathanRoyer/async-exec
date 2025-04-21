@@ -16,9 +16,10 @@ dependencies = [
 
 [[package]]
 name = "async-exec"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "async-fifo",
+ "async-io",
  "async-net",
  "futures-lite",
  "serde",
@@ -27,9 +28,9 @@ dependencies = [
 
 [[package]]
 name = "async-fifo"
-version = "0.6.4"
+version = "0.6.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e30f77406359046dcf20f30cd8a99c956d52a89180e93e2333ae3d399cc11b8e"
+checksum = "b8c1b3422ba0520f15b802ef9aa9e3924e83531a05ff4464b00196bb8a3570e2"
 
 [[package]]
 name = "async-io"

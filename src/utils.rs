@@ -1,3 +1,5 @@
+//! Future Utilities
+
 use std::task::{Poll, Context};
 use std::pin::{Pin, pin};
 use std::future::Future;

@@ -17,6 +17,9 @@ use async_fifo::non_blocking::Producer;
 
 pub mod utils;
 
+#[cfg(feature = "time")]
+pub mod time;
+
 #[cfg(feature = "monitor")]
 mod monitor;
 
